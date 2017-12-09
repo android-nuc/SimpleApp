@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/main"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_image"
+        android:padding="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/counter_activity_button"
+                style="@style/MainButtonStyle"
+                android:layout_height="100dp"
+                android:text="@string/counter"
+                android:textSize="40sp"/>
+
+            <Button
+                android:id="@+id/login_activity_button"
+                style="@style/MainButtonStyle"
+                android:layout_height="100dp"
+                android:text="@string/login"
+                android:textSize="40sp"/>
+
+            <Button
+                android:id="@+id/gallery_activity_button"
+                style="@style/MainButtonStyle"
+                android:layout_height="100dp"
+                android:text="@string/gallery"
+                android:textSize="40sp"/>
+
+            <Button
+                android:id="@+id/lucky_day_activity_button"
+                style="@style/MainButtonStyle"
+                android:layout_height="100dp"
+                android:text="@string/luckyday"
+                android:textSize="40sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
