@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="io.innofang.simpleapp">
 
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,6 +25,7 @@
 
         </activity>
         <activity android:name=".TestLuckyActivity"/>
+        <activity android:name=".LoadImageActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

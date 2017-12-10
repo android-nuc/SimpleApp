@@ -13,4 +13,5 @@
     <string name="gallery">Gallery</string>
     <string name="luckyday">LuckyDay</string>
     <string name="today_lucky">今日运势</string>
+    <string name="load_image">Load Image</string>
 </resources>

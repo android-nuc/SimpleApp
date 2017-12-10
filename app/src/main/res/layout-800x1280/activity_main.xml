@@ -55,6 +55,12 @@
                 android:layout_height="100dp"
                 android:text="@string/luckyday"
                 android:textSize="40sp"/>
+
+
+            <Button
+                android:id="@+id/load_iamge_activity_button"
+                style="@style/MainButtonStyle"
+                android:text="@string/load_image"/>
         </LinearLayout>
     </ScrollView>
 

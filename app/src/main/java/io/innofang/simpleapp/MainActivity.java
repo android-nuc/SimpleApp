@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.lucky_day_activity_button:
                 startActivity(new Intent(this, LuckyDayActivty.class));
                 break;
+            case R.id.load_iamge_activity_button:
+                startActivity(new Intent(this, LoadImageActivity.class));
+                break;
             default:
                 break;
         }

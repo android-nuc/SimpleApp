@@ -47,6 +47,11 @@
                 android:id="@+id/lucky_day_activity_button"
                 style="@style/MainButtonStyle"
                 android:text="@string/luckyday"/>
+
+            <Button
+                android:id="@+id/load_iamge_activity_button"
+                style="@style/MainButtonStyle"
+                android:text="@string/load_image"/>
         </LinearLayout>
     </ScrollView>
 
