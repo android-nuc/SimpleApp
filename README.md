@@ -7,7 +7,7 @@ Android Training for 2018
  + [Android 第一次培训](https://github.com/android-nuc/SimpleApp/blob/master/AndroidFirstTraining.md)
 
 
-# (License)[https://github.com/android-nuc/SimpleApp/blob/master/LICENSE]
+# [License([https://github.com/android-nuc/SimpleApp/blob/master/LICENSE)
 
 	
 	   Copyright 2017 android-nuc
